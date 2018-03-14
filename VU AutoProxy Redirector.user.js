@@ -2,7 +2,7 @@
 // @name Vanderbilt Auto Proxy Redirector
 // @namespace jtanx.plugins
 // @description Automatically redirect to the proxified equivalent as provided by Vanderbilt University. Adapted from UWA Auto EzProxy Redirector (https://greasyfork.org/scripts/9907-uwa-auto-ezproxy-redirector/code/UWA%20Auto%20EzProxy%20Redirector.user.js)
-// @version 0.1
+// @version 0.2
 // @license MIT
 // @run-at document-start
 // @grant none
