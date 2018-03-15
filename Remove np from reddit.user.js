@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Remove np from reddit
 // @namespace
-// @version    0.1
+// @version    0.2
 // @description  Automatically redirects all www.np.reddit.com URLs to their reddit.com equivalent.
 // @match      *//np.reddit.com/*
 // @run-at document-start
