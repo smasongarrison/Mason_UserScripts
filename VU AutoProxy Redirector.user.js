@@ -6,6 +6,8 @@
 // @license MIT
 // @run-at document-start
 // @grant none
+// @update: https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/raw/master/VU%20AutoProxy%20Redirector.user.js
+
 // @exclude *.proxy.library.vanderbilt.edu
 // @match *://*.annualreviews.org/*
 // @match *://*.aps.org/*
