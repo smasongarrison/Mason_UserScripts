@@ -8,7 +8,7 @@
 // @grant none
 // @updateURL: https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/raw/master/VU%20AutoProxy%20Redirector.user.js
 
-// @exclude *.proxy.library.vanderbilt.edu
+// @exclude *.proxy.library.*.edu
 // @match *://*.aacc.org/*
 // @match *://*.aacr.org/*
 // @match *://*.aacrjournals.org/*
@@ -603,7 +603,9 @@
 // @match *://wlt.metapress.com/*
 // @match *://worldcatlibraries.org/*
 // @match *://www-thejns-net.org/*
-// @match *://xroads.virginia.edu/*// ==/UserScript==
+// @match *://xroads.virginia.edu/*
 
-window.location.replace ("https://proxy.library.vanderbilt.edu/login?url="+window.location.href);
+// ==/UserScript==
+
+window.location.replace ("http://proxy.library.vanderbilt.edu/login?url="+window.location.href);
 
