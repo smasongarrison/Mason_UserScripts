@@ -606,6 +606,8 @@
 // @match *://xroads.virginia.edu/*
 
 // ==/UserScript==
-
-window.location.replace ("http://proxy.library.vanderbilt.edu/login?url="+window.location.href);
+if (window.self === window.top) {
+  var new_url = window.location.href
+  window.location.replace("http://proxy.library.vanderbilt.edu/login?url="+new_url);
+  }
 
