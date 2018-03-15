@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name       Remove np from reddit
-// @namespace
+// @namespace https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/blob/master/Remove%20np%20from%20reddit.user.js
 // @version    0.2
 // @description  Automatically redirects all www.np.reddit.com URLs to their reddit.com equivalent.
 // @match      *//np.reddit.com/*
 // @run-at document-start
 // @copyright  2018
+// @updateURL   https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/raw/master/Remove%20np%20from%20reddit.user.js
 // ==/UserScript==
 
 // Only redirect if we're the top window
