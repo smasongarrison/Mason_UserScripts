@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name Vanderbilt Auto Proxy Redirector
-// @namespace https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/blob/master/VU%20AutoProxy%20Redirector.user.js
+// @namespace https://github.com/smasongarrison/Mason_UserScripts/blob/master/VU%20AutoProxy%20Redirector.user.js
 // @description Automatically redirect to the proxified equivalent as provided by Vanderbilt University. Adapted from UWA Auto EzProxy Redirector (https://greasyfork.org/scripts/9907-uwa-auto-ezproxy-redirector/)
 // @version 0.2
 // @license MIT
 // @run-at document-start
 // @grant none
-// @updateURL: https://github.com/smasongarrison/Vanderbilt_Proxy_UserScript/raw/master/VU%20AutoProxy%20Redirector.user.js
+// @updateURL: https://github.com/smasongarrison/Mason_UserScripts/raw/master/VU%20AutoProxy%20Redirector.user.js
 
 // @exclude *.proxy.library.*.edu
 // @match *://*.aacc.org/*
