@@ -3,8 +3,7 @@
 // @namespace
 // @version    0.1
 // @description  Automatically redirects all www.np.reddit.com URLs to their reddit.com equivalent.
-// @match      http://np.reddit.com/*
-// @match      https://np.reddit.com/*
+// @match      *//np.reddit.com/*
 // @run-at document-start
 // @copyright  2018
 // ==/UserScript==
